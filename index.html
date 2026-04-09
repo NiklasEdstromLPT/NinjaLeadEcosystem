@@ -1,185 +1,244 @@
 <!DOCTYPE html>
 <html class="light" lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>HomeValue Digital Network</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          "primary": "#0056c9",
-          "primary-container": "#1b6ef3",
-          "on-secondary-fixed": "#0b1a3d",
-          "on-surface-variant": "#424654",
-          "surface-container-low": "#f5f4f0",
-          "surface-container": "#efeeea",
-          "surface-container-lowest": "#ffffff",
-          "outline-variant": "#c2c6d7",
-          "tertiary-fixed": "#9af0f9",
-          "on-tertiary-fixed": "#002022",
-        },
-        fontFamily: {
-          headline: ["Epilogue"],
-          body: ["Manrope"],
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>HomeValue Digital Network</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700;800;900&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#0056c9",
+            "primary-container": "#1b6ef3",
+            "on-secondary-fixed": "#0b1a3d",
+            "on-surface-variant": "#424654",
+            "surface-container-low": "#f5f4f0",
+            "surface-container": "#efeeea",
+            "surface-container-lowest": "#ffffff",
+            "outline-variant": "#c2c6d7",
+            "tertiary-fixed": "#9af0f9",
+            "on-tertiary-fixed": "#002022",
+          },
+          fontFamily: {
+            headline: ["Epilogue"],
+            body: ["Manrope"],
+          }
         }
       }
     }
-  }
-</script>
-<style>
-  body { font-family: 'Manrope', sans-serif; background-color: #faf9f5; }
-  .font-headline { font-family: 'Epilogue', sans-serif; }
-  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
-  .card-live:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(11,26,61,0.12); }
-  .card-coming { opacity: 0.5; cursor: default; }
-</style>
+  </script>
+  <style>
+    body {
+      font-family: 'Manrope', sans-serif;
+      background-color: #faf9f5;
+    }
+
+    .font-headline {
+      font-family: 'Epilogue', sans-serif;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .card-live:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(11, 26, 61, 0.12);
+    }
+
+    .card-coming {
+      opacity: 0.5;
+      cursor: default;
+    }
+  </style>
 </head>
+
 <body class="text-on-secondary-fixed">
 
-<!-- NAV -->
-<nav class="w-full bg-[#f5f4f0] border-b border-black/5 sticky top-0 z-50">
-  <div class="max-w-6xl mx-auto px-8 py-5 flex justify-between items-center">
-    <div class="flex items-center gap-2">
-      <span class="material-symbols-outlined text-primary-container text-2xl" style="font-variation-settings:'FILL' 1;">home_work</span>
-      <span class="font-headline font-black text-xl tracking-tighter text-on-secondary-fixed">HomeValue <span class="text-primary-container">Network</span></span>
+  <!-- NAV -->
+  <nav class="w-full bg-[#f5f4f0] border-b border-black/5 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-8 py-5 flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <span class="material-symbols-outlined text-primary-container text-2xl"
+          style="font-variation-settings:'FILL' 1;">home_work</span>
+        <span class="font-headline font-black text-xl tracking-tighter text-on-secondary-fixed">HomeValue <span
+            class="text-primary-container">Network</span></span>
+      </div>
+      <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">Nik's Demo — April 2025</span>
     </div>
-    <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">Nik's Demo — April 2025</span>
-  </div>
-</nav>
+  </nav>
 
-<!-- HERO -->
-<section class="max-w-6xl mx-auto px-8 pt-20 pb-12 text-center">
-  <span class="inline-flex items-center px-4 py-1.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-xs font-bold tracking-widest uppercase mb-6">Live Prototypes</span>
-  <h1 class="font-headline font-black text-5xl md:text-7xl tracking-tighter text-on-secondary-fixed leading-[1.05] mb-6">
-    The HomeValue<br><span class="text-primary-container">Digital Network</span>
-  </h1>
-  <p class="text-on-surface-variant text-lg max-w-xl mx-auto leading-relaxed">
-    10 integrated lead generation verticals covering the full real estate consumer journey. Click any live site below to preview.
-  </p>
-</section>
+  <!-- HERO -->
+  <section class="max-w-6xl mx-auto px-8 pt-20 pb-12 text-center">
+    <span
+      class="inline-flex items-center px-4 py-1.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-xs font-bold tracking-widest uppercase mb-6">Live
+      Prototypes</span>
+    <h1
+      class="font-headline font-black text-5xl md:text-7xl tracking-tighter text-on-secondary-fixed leading-[1.05] mb-6">
+      The HomeValue<br><span class="text-primary-container">Digital Network</span>
+    </h1>
+    <p class="text-on-surface-variant text-lg max-w-xl mx-auto leading-relaxed">
+      10 integrated lead generation verticals covering the full real estate consumer journey. Click any live site below
+      to preview.
+    </p>
+  </section>
 
-<!-- SITE GRID -->
-<section class="max-w-6xl mx-auto px-8 pb-24">
-  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <!-- SITE GRID -->
+  <section class="max-w-6xl mx-auto px-8 pb-24">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-    <!-- 1. Military Leads — LIVE -->
-    <a href="https://niklasedstromlpt.github.io/NikMILITARYLEADS/" target="_blank" rel="noopener noreferrer"
-       class="card-live bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8 transition-all duration-200 block">
-      <div class="flex justify-between items-start mb-6">
-        <div class="w-12 h-12 rounded-xl bg-[#E4F5F3] flex items-center justify-center">
-          <span class="material-symbols-outlined text-[#0A8F80] text-2xl" style="font-variation-settings:'FILL' 1;">military_tech</span>
+      <!-- 1. Military Leads — LIVE -->
+      <a href="https://niklasedstromlpt.github.io/NikMILITARYLEADS/" target="_blank" rel="noopener noreferrer"
+        class="card-live bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8 transition-all duration-200 block">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-12 h-12 rounded-xl bg-[#E4F5F3] flex items-center justify-center">
+            <span class="material-symbols-outlined text-[#0A8F80] text-2xl"
+              style="font-variation-settings:'FILL' 1;">military_tech</span>
+          </div>
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">Live</span>
         </div>
-        <span class="text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">Live</span>
-      </div>
-      <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">Military Leads</h2>
-      <p class="text-sm text-on-surface-variant leading-relaxed mb-6">VA loan matching for active duty, veterans, and military families. Verified by transaction history.</p>
-      <div class="flex items-center gap-2 text-primary-container font-bold text-sm">
-        <span>View site</span>
-        <span class="material-symbols-outlined text-base">arrow_forward</span>
-      </div>
-    </a>
-
-    <!-- 2. PreApprove — Coming Soon -->
-    <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
-      <div class="flex justify-between items-start mb-6">
-        <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
-          <span class="material-symbols-outlined text-blue-500 text-2xl" style="font-variation-settings:'FILL' 1;">verified</span>
+        <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">Military Leads</h2>
+        <p class="text-sm text-on-surface-variant leading-relaxed mb-6">VA loan matching for active duty, veterans, and
+          military families. Verified by transaction history.</p>
+        <div class="flex items-center gap-2 text-primary-container font-bold text-sm">
+          <span>View site</span>
+          <span class="material-symbols-outlined text-base">arrow_forward</span>
         </div>
-        <span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming Soon</span>
+      </a>
+
+      <!-- 2. PreApprove — Coming Soon -->
+      <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-blue-500 text-2xl"
+              style="font-variation-settings:'FILL' 1;">verified</span>
+          </div>
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming
+            Soon</span>
+        </div>
+        <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">PreApprove.com</h2>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Mortgage preapproval matching. Routes buyers to the
+          right lender — VA, FHA, USDA, Conventional, Jumbo.</p>
       </div>
-      <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">PreApprove.com</h2>
-      <p class="text-sm text-on-surface-variant leading-relaxed">Mortgage preapproval matching. Routes buyers to the right lender — VA, FHA, USDA, Conventional, Jumbo.</p>
+
+      <!-- 3. FSBO Support — Coming Soon -->
+      <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-12 h-12 rounded-xl bg-orange-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-orange-500 text-2xl"
+              style="font-variation-settings:'FILL' 1;">sell</span>
+          </div>
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming
+            Soon</span>
+        </div>
+        <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">FSBOSupport.com</h2>
+        <p class="text-sm text-on-surface-variant leading-relaxed">For Sale By Owner support tools, guides, and
+          conversion to agent matching when DIY stalls.</p>
+      </div>
+
+      <!-- 4. TitleCheck — Coming Soon -->
+      <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-red-500 text-2xl"
+              style="font-variation-settings:'FILL' 1;">gavel</span>
+          </div>
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming
+            Soon</span>
+        </div>
+        <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">TitleCheck.com</h2>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Distressed and title-driven leads. Pre-foreclosure,
+          probate, liens — motivated sellers before they hit the market.</p>
+      </div>
+
+      <!-- 5. Investor Leads — Coming Soon -->
+      <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-12 h-12 rounded-xl bg-emerald-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-emerald-600 text-2xl"
+              style="font-variation-settings:'FILL' 1;">trending_up</span>
+          </div>
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming
+            Soon</span>
+        </div>
+        <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">InvestorLeads.com</h2>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Real estate investor tools — cap rate calculators,
+          cash flow estimators, and agent matching for investment specialists.</p>
+      </div>
+
+      <!-- 6. Agent Matching — Coming Soon -->
+      <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-12 h-12 rounded-xl bg-violet-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-violet-600 text-2xl"
+              style="font-variation-settings:'FILL' 1;">manage_accounts</span>
+          </div>
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming
+            Soon</span>
+        </div>
+        <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">AgentMatchingLeads.com
+        </h2>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Project Sniper — specialty-based agent matching. One
+          verified expert per consumer, not a list of five.</p>
+      </div>
+
+      <!-- 7. BuyMyHouse — LIVE -->
+      <a href="https://niklasedstromlpt.github.io/BuyNiksHousedotcom/" target="_blank" rel="noopener noreferrer"
+        class="card-live bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8 transition-all duration-200 block">
+        <div class="flex justify-between items-start mb-6">
+          <div class="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-amber-600 text-2xl"
+              style="font-variation-settings:'FILL' 1;">real_estate_agent</span>
+          </div>
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">Live</span>
+        </div>
+        <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">BuyMyHouse</h2>
+        <p class="text-sm text-on-surface-variant leading-relaxed mb-6">Direct seller funnel for homeowners exploring a
+          fast home sale.</p>
+        <div class="flex items-center gap-2 text-primary-container font-bold text-sm">
+          <span>View site</span>
+          <span class="material-symbols-outlined text-base">arrow_forward</span>
+        </div>
+      </a>
+
     </div>
 
-    <!-- 3. FSBO Support — Coming Soon -->
-    <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
-      <div class="flex justify-between items-start mb-6">
-        <div class="w-12 h-12 rounded-xl bg-orange-50 flex items-center justify-center">
-          <span class="material-symbols-outlined text-orange-500 text-2xl" style="font-variation-settings:'FILL' 1;">sell</span>
-        </div>
-        <span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming Soon</span>
+    <!-- Progress note -->
+    <div class="mt-10 bg-surface-container rounded-2xl px-8 py-6 flex items-center gap-4">
+      <span class="material-symbols-outlined text-primary-container text-3xl"
+        style="font-variation-settings:'FILL' 1;">construction</span>
+      <div>
+        <p class="font-bold text-on-secondary-fixed text-sm">2 of 7 sites live — more deploying this week</p>
+        <p class="text-xs text-on-surface-variant mt-0.5">This page updates as each site goes live. Refresh before the
+          meeting.</p>
       </div>
-      <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">FSBOSupport.com</h2>
-      <p class="text-sm text-on-surface-variant leading-relaxed">For Sale By Owner support tools, guides, and conversion to agent matching when DIY stalls.</p>
     </div>
+  </section>
 
-    <!-- 4. TitleCheck — Coming Soon -->
-    <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
-      <div class="flex justify-between items-start mb-6">
-        <div class="w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center">
-          <span class="material-symbols-outlined text-red-500 text-2xl" style="font-variation-settings:'FILL' 1;">gavel</span>
-        </div>
-        <span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming Soon</span>
-      </div>
-      <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">TitleCheck.com</h2>
-      <p class="text-sm text-on-surface-variant leading-relaxed">Distressed and title-driven leads. Pre-foreclosure, probate, liens — motivated sellers before they hit the market.</p>
+  <!-- FOOTER -->
+  <footer class="border-t border-black/5 bg-[#f5f4f0] py-8">
+    <div class="max-w-6xl mx-auto px-8 flex justify-between items-center flex-wrap gap-4">
+      <span class="font-headline font-black text-sm tracking-tighter text-on-secondary-fixed">HomeValue Digital
+        Network</span>
+      <span class="text-xs text-on-surface-variant">Prototype build — April 2025 · Not for public distribution</span>
     </div>
-
-    <!-- 5. Investor Leads — Coming Soon -->
-    <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
-      <div class="flex justify-between items-start mb-6">
-        <div class="w-12 h-12 rounded-xl bg-emerald-50 flex items-center justify-center">
-          <span class="material-symbols-outlined text-emerald-600 text-2xl" style="font-variation-settings:'FILL' 1;">trending_up</span>
-        </div>
-        <span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming Soon</span>
-      </div>
-      <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">InvestorLeads.com</h2>
-      <p class="text-sm text-on-surface-variant leading-relaxed">Real estate investor tools — cap rate calculators, cash flow estimators, and agent matching for investment specialists.</p>
-    </div>
-
-    <!-- 6. Agent Matching — Coming Soon -->
-    <div class="card-coming bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8">
-      <div class="flex justify-between items-start mb-6">
-        <div class="w-12 h-12 rounded-xl bg-violet-50 flex items-center justify-center">
-          <span class="material-symbols-outlined text-violet-600 text-2xl" style="font-variation-settings:'FILL' 1;">manage_accounts</span>
-        </div>
-        <span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Coming Soon</span>
-      </div>
-      <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">AgentMatchingLeads.com</h2>
-      <p class="text-sm text-on-surface-variant leading-relaxed">Project Sniper — specialty-based agent matching. One verified expert per consumer, not a list of five.</p>
-    </div>
-
-    <!-- 7. BuyMyHouse — LIVE -->
-    <a href="https://niklasedstromlpt.github.io/BuyNiksHousedotcom/" target="_blank" rel="noopener noreferrer"
-       class="card-live bg-surface-container-lowest rounded-2xl border border-outline-variant/20 p-8 transition-all duration-200 block">
-      <div class="flex justify-between items-start mb-6">
-        <div class="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center">
-          <span class="material-symbols-outlined text-amber-600 text-2xl" style="font-variation-settings:'FILL' 1;">real_estate_agent</span>
-        </div>
-        <span class="text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">Live</span>
-      </div>
-      <h2 class="font-headline font-black text-xl tracking-tight text-on-secondary-fixed mb-2">BuyMyHouse</h2>
-      <p class="text-sm text-on-surface-variant leading-relaxed mb-6">Direct seller funnel for homeowners exploring a fast home sale.</p>
-      <div class="flex items-center gap-2 text-primary-container font-bold text-sm">
-        <span>View site</span>
-        <span class="material-symbols-outlined text-base">arrow_forward</span>
-      </div>
-    </a>
-
-  </div>
-
-  <!-- Progress note -->
-  <div class="mt-10 bg-surface-container rounded-2xl px-8 py-6 flex items-center gap-4">
-    <span class="material-symbols-outlined text-primary-container text-3xl" style="font-variation-settings:'FILL' 1;">construction</span>
-    <div>
-      <p class="font-bold text-on-secondary-fixed text-sm">2 of 7 sites live — more deploying this week</p>
-      <p class="text-xs text-on-surface-variant mt-0.5">This page updates as each site goes live. Refresh before the meeting.</p>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="border-t border-black/5 bg-[#f5f4f0] py-8">
-  <div class="max-w-6xl mx-auto px-8 flex justify-between items-center flex-wrap gap-4">
-    <span class="font-headline font-black text-sm tracking-tighter text-on-secondary-fixed">HomeValue Digital Network</span>
-    <span class="text-xs text-on-surface-variant">Prototype build — April 2025 · Not for public distribution</span>
-  </div>
-</footer>
+  </footer>
 
 </body>
+
 </html>
